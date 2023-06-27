@@ -4,7 +4,9 @@ const DefaultLayout = () => {
   return (
     <div>
       <Header />
-      <Outlet />
+      <main className="w-full max-w-[54rem] mx-auto px-4">
+        <Outlet />
+      </main>
     </div>
   )
 }

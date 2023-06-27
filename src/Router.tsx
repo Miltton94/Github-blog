@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Blog from './pages/Blog'
-import DefaultLayout from './DefaultLayout'
+import DefaultLayout from './defaultLayout'
 
 export const Router = () => {
   return (
