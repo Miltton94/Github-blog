@@ -21,7 +21,11 @@ export default {
       blue: '#3294F8',
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header-image': "url('/headerBg.png')",
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
 }
