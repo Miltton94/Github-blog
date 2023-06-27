@@ -28,15 +28,15 @@ const Profile = () => {
         </p>
 
         <ul className="flex items-start xs:items-center sm:gap-6 gap-4 flex-col xs:flex-row xs:flex-wrap mt-2 sm:mt-auto">
-          <li className="flex items gap-2">
+          <li className="flex items-center gap-2">
             <GithubLogo size={20} className="text-label" /> miltton94
           </li>
 
-          <li className="flex items gap-2">
+          <li className="flex items-center gap-2">
             <Buildings size={20} className="text-label" /> Apucarana
           </li>
 
-          <li className="flex items gap-2">
+          <li className="flex items-center gap-2">
             <Users size={20} className="text-label" /> 123 seguidores
           </li>
         </ul>
