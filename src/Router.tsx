@@ -3,7 +3,7 @@ import Blog from './pages/Blog'
 import DefaultLayout from './defaultLayout'
 import Post from './pages/Post'
 
-export const Router = () => {
+ const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
@@ -13,3 +13,5 @@ export const Router = () => {
     </Routes>
   )
 }
+
+export default Router
